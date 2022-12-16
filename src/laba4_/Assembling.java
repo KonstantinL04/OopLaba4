@@ -17,7 +17,7 @@ public class Assembling {
         ifNullList();
         for (SystemUnit systemUnit: systemUnits) {
             if (systemUnit.getName() == null ? name == null : systemUnit.getName().equals(name)) {
-                systemUnit.doSomething();
+                systemUnit.doGet();
                 return;
             }
         }
@@ -28,7 +28,7 @@ public class Assembling {
         ifNullList();
         System.out.println();
         for (SystemUnit systemUnit: systemUnits) {
-            systemUnit.doSomething();
+            systemUnit.doGet();
         }
         System.out.println();
     }

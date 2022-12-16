@@ -9,7 +9,7 @@ public class MotherBoard extends Components{
         this.countSlotsRAM = countSlotsRAM;
     }
     @Override
-    void doSomething(){
+    void doGet(){
         System.out.println("Название комплектующего: " + name + "; Цена: " + price + " рублей; " +
                 "Количество USB-слотов: " + countUSB + " шт.; Количество RAM-слотов: " +
                 countSlotsRAM + " шт.");

@@ -7,7 +7,7 @@ public class PowerSupply extends Components{
         this.power = power;
     }
     @Override
-    void doSomething(){
+    void doGet(){
         System.out.println("Название комплектующего: " + name + "; Цена: " + price + " рублей; " +
                 "Мощность: " + power + " Wat");
     }

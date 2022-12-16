@@ -9,7 +9,7 @@ public class GPU extends Components{
         this.countCooler = countCooler;
     }
     @Override
-    void doSomething(){
+    void doGet(){
         System.out.println("Название комплектующего: " + name + "; Цена: " + price + " рублей; Количество видеопамями: " +
                 countRam + " ГБ; Количество кулеров: " + countCooler + " шт.");
     }

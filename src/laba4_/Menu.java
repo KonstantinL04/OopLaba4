@@ -8,7 +8,6 @@ public class Menu {
 
     private static void getMainMenu() {
         int choice;
-       // boolean working = true;
         do {
             System.out.println("\n------------------Главное меню------------------");
             System.out.println("1 - Создать комплектующие системного блока");
@@ -62,6 +61,7 @@ public class Menu {
     }
 
     private static void createSystemUnit() {
+        System.out.println("\n------------------Меню ввода------------------");
         System.out.println("1 - Процессор");
         System.out.println("2 - Материнская плата");
         System.out.println("3 - Видеокарта");
@@ -120,6 +120,7 @@ public class Menu {
                 System.out.println("---------------Успешно добавлено!---------------");
                 return;
             default:
+                System.out.println("Введен неправильный пункт меню, повторите попытку...");
                 createSystemUnit();
         }
     }

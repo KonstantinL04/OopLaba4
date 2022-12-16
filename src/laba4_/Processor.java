@@ -9,7 +9,7 @@ public class Processor extends Components{
         this.heatDissipation = heatDissipation;
     }
     @Override
-    void doSomething(){
+    void doGet(){
         System.out.println("Название комплектующего: " + name + "; Цена: " + price + " рублей; " +
                 "Частота процессора: " + frequencyCPU + " ГГц; Теплоотдача: " + heatDissipation + " Wat");
     }

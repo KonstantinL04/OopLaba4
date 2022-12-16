@@ -4,7 +4,7 @@ public class Components extends SystemUnit{
         super(name,price);
     }
     @Override
-    void doSomething(){
+    void doGet(){
         System.out.println("Название комплектующего: " + name + " Цена: " + price + " рублей");
     }
 }

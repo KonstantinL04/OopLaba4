@@ -1,8 +1,8 @@
 package laba4_;
 public abstract class SystemUnit{
-    String name;
-    int price;
-    SystemUnit(String name, int price){
+    protected String name;
+    protected int price;
+    protected SystemUnit(String name, int price){
         this.name = name;
         this.price = price;
     }
@@ -10,5 +10,5 @@ public abstract class SystemUnit{
         return name;
     }
 
-    abstract void doSomething();
+    abstract void doGet();
 }
